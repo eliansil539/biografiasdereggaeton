@@ -1,0 +1,205 @@
+/* Estilos para los elementos de la barra */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("../img/FONDO.jpeg");
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff; 
+  padding: 5px 10px;
+}
+
+.menu li a:hover {
+  background-color:black;
+  
+}
+/*------------------------------*/
+
+/*Barra de busqueda*/
+#buscar{
+    position: relative;
+    background-color: #555;
+    color: #fff;
+    border-color: #999;
+    border-radius: 5px;
+}
+#buscar:hover{
+    
+    background-color: #555;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 2px;
+}
+.boton{
+    background-color: #555;
+    color: #fff;
+    border-color: #999;
+}
+.boton:hover {
+    background-color: #777;
+}
+/*------------------------------*/
+
+/* Estilos para el footer */
+footer {
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  z-index: 0; 
+ background-image: url("../img/FONDO.jpeg");
+ border-radius: 20px;
+}
+
+/*--------------------------------*/
+/* Estilos para la tarjeta (card) */
+
+
+
+/* Al pasar el cursor sobre la tarjeta, agrega una sombra más profunda */
+.item:hover {
+    box-shadow: 0 8px 16px 0 #777;
+}
+.item{
+        background-color: #000;
+        border-radius: 10px;
+        
+}
+/* Estilos para el contenedor dentro de la tarjeta */
+
+/*color de fondo xd*/
+body{
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+      
+}
+/*------------------------------*/
+/* la card y el scroll */
+.card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        position: relative;
+        overflow-x: hidden;
+        background-image: url("../img/bg.jpg");
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .item {
+        color: #fff;
+        border-color: #fff;
+        text-align: center;
+    }
+    /* Barra de navegacion */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento completa */
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Color del fondo */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#999; /* Color del pulgar de desplazamiento */
+    border-radius: 50px; /* Redondez del pulgar de desplazamiento */
+    border: 3px solid #000; /* Crea un relleno alrededor del pulgar de desplazamiento */
+}
+/*----------------------------------*/
+
+/*informacion.html*/
+.contenido{
+border-radius: 30px;
+justify-content: center;
+position: relative;
+align-items: center;
+display: flex;
+flex-direction: column;
+background-image: url("../img/bg_con.jpeg");
+
+}
+
+.parrafo{
+border-radius: 10px;
+background-color: #000;
+color: #fff;
+justify-content: center;
+text-align: center;
+margin: 0;
+width: 80%; 
+position: relative;
+}
+/*-------------------------------*/
+.login{
+    color: #fff;
+    background-image: url("../img/bg_login.jpg");
+    background-size: cover;
+    border: 5px #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 370px; /* Aumenta el ancho según tus necesidades */
+    height: 270px; /* Aumenta la altura según tus necesidades */
+    margin: auto;
+    padding: 20px;
+}
+#in{
+border-radius: 5px ;
+background-color: #555;
+color: white;
+border: 10px;
+
+}
+#can{
+border-radius: 5px ;
+background-color: #777;
+color: white;
+border: 10px
+}
+#can:hover{
+background-color: red;
+color: #fff;
+}
+#in:hover{
+background-color: blue;
+color: #fff;
+}
+#email {
+    background-color: #222; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto claro */
+    transition: background-color 0.3s ease; /* Transición suave */
+    border-radius: 10px;
+}
+
+/* Al hacer hover, cambia el color de fondo */
+#email:hover {
+    background-color: #444; /* Color de fondo más oscuro */
+    border-radius: 3px;
+}
+#pass {
+    background-color: #222; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto claro */
+    transition: background-color 0.3s ease; /* Transición suave */
+    border-radius: 10px;
+}
+
+/* Al hacer hover, cambia el color de fondo */
+#pass:hover {
+    background-color: #444; /* Color de fondo más oscuro */
+    border-radius: 3px;
+}
